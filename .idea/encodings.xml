@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/001-springcloud-eureka-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/002-eureka-client-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/003-eureka-client-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/004-eureka-cluster-client-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/004-eureka-cluster-client-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/004-eureka-cluster-server-9100/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/004-eureka-cluster-server-9200/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/005-eureka-client-ribbon-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/005-eureka-client-ribbon-consumer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/005-eureka-client-ribbon-provider-8081/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/005-eureka-client-ribbon-provider-8082/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/005-eureka-server-ribbon/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/006-resttemplate-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/006-resttemplate-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/007-eureka-client-hystrix-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/007-eureka-client-hystrix-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/007-eureka-server-hystrix/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/008-hystrix-dashboard/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/009-eureka-client-feign-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/009-eureka-client-feign-provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/009-eureka-server-feign/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/010-eureka-client-zuul-consumer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/010-eureka-client-zuul-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/010-eureka-client-zuul-provider2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/010-eureka-server-zuul/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/011-springboot-mybatisplus/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/012-springboot-twillo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/heroku-springboot/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/stpd-page/src/main/java" charset="UTF-8" />
+  </component>
+</project>

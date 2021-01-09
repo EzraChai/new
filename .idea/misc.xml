@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/001-springcloud-eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/002-eureka-client-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/003-eureka-client-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/004-eureka-cluster-server-9100/pom.xml" />
+        <option value="$PROJECT_DIR$/004-eureka-cluster-server-9200/pom.xml" />
+        <option value="$PROJECT_DIR$/004-eureka-cluster-client-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/004-eureka-cluster-client-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/005-eureka-server-ribbon/pom.xml" />
+        <option value="$PROJECT_DIR$/005-eureka-client-ribbon-provider-8081/pom.xml" />
+        <option value="$PROJECT_DIR$/005-eureka-client-ribbon-provider-8082/pom.xml" />
+        <option value="$PROJECT_DIR$/006-resttemplate-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/006-resttemplate-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/007-eureka-client-hystrix-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/007-eureka-client-hystrix-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/007-eureka-server-hystrix/pom.xml" />
+        <option value="$PROJECT_DIR$/heroku-springboot/pom.xml" />
+        <option value="$PROJECT_DIR$/005-eureka-client-ribbon-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/008-hystrix-dashboard/pom.xml" />
+        <option value="$PROJECT_DIR$/009-eureka-server-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/009-eureka-client-feign-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/009-eureka-client-feign-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/010-eureka-server-zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/010-eureka-client-zuul-provider2/pom.xml" />
+        <option value="$PROJECT_DIR$/010-eureka-client-zuul-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/010-eureka-client-zuul-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/stpd-page/pom.xml" />
+        <option value="$PROJECT_DIR$/011-springboot-mybatisplus/pom.xml" />
+        <option value="$PROJECT_DIR$/012-springboot-twillo/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="corretto-1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

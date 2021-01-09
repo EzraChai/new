@@ -1,0 +1,7 @@
+twillo:
+  account_sid: AC70b93fdd071461b8c64d63ebc62a35af
+  auth_token: ce621e1efbdb35f5afcbf081887cde1b
+  trial_number: +15183484288
+
+server:
+  port: 8086

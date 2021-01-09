@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="004-eureka-cluster-server-9200" />
+        <module name="004-eureka-cluster-server-9100" />
+        <module name="010-eureka-client-zuul-provider2" />
+        <module name="heroku-springboot" />
+        <module name="005-eureka-client-ribbon-provider-8081" />
+        <module name="005-eureka-client-ribbon-provider-8082" />
+        <module name="012-springboot-twillo" />
+        <module name="010-eureka-client-zuul-gateway" />
+        <module name="stpd-page" />
+        <module name="006-restTemplate-consumer" />
+        <module name="009-eureka-server-feign" />
+        <module name="002-eureka-client-provider" />
+        <module name="011-springboot-mybatisplus" />
+        <module name="009-eureka-client-feign-provider" />
+        <module name="009-eureka-client-feign-consumer" />
+        <module name="007-eureka-server-hystrix" />
+        <module name="001-springcloud-eureka-server" />
+        <module name="007-eureka-client-hystrix-provider" />
+        <module name="008-hystrix-dashboard" />
+        <module name="005-eureka-server-ribbon" />
+        <module name="004-eureka-cluster-client-consumer" />
+        <module name="004-eureka-cluster-client-provider" />
+        <module name="006-resttemplate-consumer" />
+        <module name="010-eureka-client-zuul-provider" />
+        <module name="006-resttemplate-provider" />
+        <module name="009-eureka-feign-consumer" />
+        <module name="010-eureka-client-zuul-consumer" />
+        <module name="003-eureka-client-consumer" />
+        <module name="007-eureka-client-hystrix-consumer" />
+        <module name="010-eureka-server-zuul" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="001-springcloud-eureka-server" target="1.8" />
+      <module name="002-eureka-client-provider" target="1.8" />
+      <module name="003-eureka-client-consumer" target="1.8" />
+      <module name="004-eureka-cluster-client-consumer" target="1.8" />
+      <module name="004-eureka-cluster-client-provider" target="1.8" />
+      <module name="004-eureka-cluster-server-9100" target="1.8" />
+      <module name="004-eureka-cluster-server-9200" target="1.8" />
+      <module name="005-eureka-client-ribbon-consumer" target="1.8" />
+      <module name="005-eureka-client-ribbon-provider-8081" target="1.8" />
+      <module name="005-eureka-client-ribbon-provider-8082" target="1.8" />
+      <module name="005-eureka-server-ribbon" target="1.8" />
+      <module name="006-restTemplate-consumer" target="1.8" />
+      <module name="006-resttemplate-consumer" target="1.8" />
+      <module name="006-resttemplate-provider" target="1.8" />
+      <module name="007-eureka-client-hystrix-consumer" target="1.8" />
+      <module name="007-eureka-client-hystrix-provider" target="1.8" />
+      <module name="007-eureka-server-hystrix" target="1.8" />
+      <module name="008-hystrix-dashboard" target="1.8" />
+      <module name="009-eureka-client-feign-consumer" target="1.8" />
+      <module name="009-eureka-client-feign-provider" target="1.8" />
+      <module name="009-eureka-feign-consumer" target="1.8" />
+      <module name="009-eureka-server-feign" target="1.8" />
+      <module name="010-eureka-client-zuul-consumer" target="1.8" />
+      <module name="010-eureka-client-zuul-gateway" target="1.8" />
+      <module name="010-eureka-client-zuul-provider" target="1.8" />
+      <module name="010-eureka-client-zuul-provider2" target="1.8" />
+      <module name="010-eureka-server-zuul" target="1.8" />
+      <module name="011-springboot-mybatisplus" target="1.8" />
+      <module name="012-springboot-twillo" target="1.8" />
+      <module name="heroku-springboot" target="1.8" />
+      <module name="stpd-page" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="001-springcloud-eureka-server" options="-parameters" />
+      <module name="002-eureka-client-provider" options="-parameters" />
+      <module name="003-eureka-client-consumer" options="-parameters" />
+      <module name="004-eureka-cluster-client-consumer" options="-parameters" />
+      <module name="004-eureka-cluster-client-provider" options="-parameters" />
+      <module name="004-eureka-cluster-server-9100" options="-parameters" />
+      <module name="004-eureka-cluster-server-9200" options="-parameters" />
+      <module name="005-eureka-client-ribbon-consumer" options="-parameters" />
+      <module name="005-eureka-client-ribbon-provider-8081" options="-parameters" />
+      <module name="005-eureka-client-ribbon-provider-8082" options="-parameters" />
+      <module name="005-eureka-server-ribbon" options="-parameters" />
+      <module name="006-restTemplate-consumer" options="-parameters" />
+      <module name="006-resttemplate-consumer" options="-parameters" />
+      <module name="006-resttemplate-provider" options="-parameters" />
+      <module name="007-eureka-client-hystrix-consumer" options="-parameters" />
+      <module name="007-eureka-client-hystrix-provider" options="-parameters" />
+      <module name="007-eureka-server-hystrix" options="-parameters" />
+      <module name="008-hystrix-dashboard" options="-parameters" />
+      <module name="009-eureka-client-feign-consumer" options="-parameters" />
+      <module name="009-eureka-client-feign-provider" options="-parameters" />
+      <module name="009-eureka-feign-consumer" options="-parameters" />
+      <module name="009-eureka-server-feign" options="-parameters" />
+      <module name="010-eureka-client-zuul-consumer" options="-parameters" />
+      <module name="010-eureka-client-zuul-gateway" options="-parameters" />
+      <module name="010-eureka-client-zuul-provider" options="-parameters" />
+      <module name="010-eureka-client-zuul-provider2" options="-parameters" />
+      <module name="010-eureka-server-zuul" options="-parameters" />
+      <module name="011-springboot-mybatisplus" options="-parameters" />
+      <module name="012-springboot-twillo" options="-parameters" />
+      <module name="heroku-springboot" options="-parameters" />
+      <module name="stpd-page" options="-parameters" />
+    </option>
+  </component>
+</project>
