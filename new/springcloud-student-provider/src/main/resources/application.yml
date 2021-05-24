@@ -1,0 +1,32 @@
+spring:
+  application:
+    name: service-student-provider
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/studentapi?useUnicode=true&CharacterEncoding=UTF-8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=Asia/Kuala_Lumpur
+    username: root
+    password: D9806f2a2b
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+server:
+  port: 9100
+
+eureka:
+  client:
+    #    注册中心的连接地址
+    service-url:
+      defaultZone: http://localhost:8764/eureka
+
+  instance:
+    #    发送一次心跳证明自己依然存活
+    lease-renewal-interval-in-seconds: 2
+    #    如果超过时间就代表自己已死
+    lease-expiration-duration-in-seconds: 10
+    #    告诉服务端，服务实例以IP作为连接，而不是取机器名
+    prefer-ip-address: true
+    #    名字
+    instance-id: springcloud-client-provider

@@ -31,6 +31,7 @@
         <option value="$PROJECT_DIR$/stpd-page/pom.xml" />
         <option value="$PROJECT_DIR$/011-springboot-mybatisplus/pom.xml" />
         <option value="$PROJECT_DIR$/012-springboot-twillo/pom.xml" />
+        <option value="$PROJECT_DIR$/api/pom.xml" />
       </list>
     </option>
   </component>

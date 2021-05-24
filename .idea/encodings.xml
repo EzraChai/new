@@ -28,6 +28,7 @@
     <file url="file://$PROJECT_DIR$/010-eureka-server-zuul/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/011-springboot-mybatisplus/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/012-springboot-twillo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/api/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/heroku-springboot/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/stpd-page/src/main/java" charset="UTF-8" />
   </component>

@@ -3,6 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <title>Table</title>
+    <style>
+        #button {
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
 <div >
@@ -11,12 +16,14 @@
         <td>ID</td>
         <td>Name</td>
         <td>Age</td>
+        <td>Operating</td>
     </tr>
     <div th:each="user: ${page.records}">
         <tr>
             <td th:text="${user.id}"></td>
             <td th:text="${user.name}"></td>
             <td th:text="${user.age}"></td>
+            <td id="button"><a th:href="@{/delete/{id}(id=${user.id},pn=${page.getCurrent()})}">X</a></td>
         </tr>
     </div>
     </table>

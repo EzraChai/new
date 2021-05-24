@@ -1,0 +1,19 @@
+
+server:
+  port: 3722
+
+eureka:
+  client:
+    #Do not register this service to the Eureka
+    register-with-eureka: false
+    service-url:
+      #Eureka server service URL
+      defaultZone: http://localhost:8761/eureka
+
+
+#Turbine Configuration
+turbine:
+  #For which hystrix service you wanted to polymerization (聚合)
+  app-config: SERVICE-STUDENT-CONSUMER,SERVICE-STUDENT-CONSUMER-2
+  cluster-name-expression: "default"
+

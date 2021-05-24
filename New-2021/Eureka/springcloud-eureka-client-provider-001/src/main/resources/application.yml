@@ -1,0 +1,26 @@
+
+
+eureka:
+  client:
+#    注册中心的连接地址
+    service-url:
+      defaultZone: https://murmuring-harbor-22009.herokuapp.com/eureka
+
+
+  instance:
+#    发送一次心跳证明自己依然存活
+    lease-renewal-interval-in-seconds: 2
+#    如果超过时间就代表自己已死
+    lease-expiration-duration-in-seconds: 10
+#    告诉服务端，服务实例以IP作为连接，而不是取机器名
+    prefer-ip-address: true
+#    名字
+    instance-id: springcloud-client-provider
+
+
+server:
+  port: 8082
+
+spring:
+  application:
+    name: service-provider

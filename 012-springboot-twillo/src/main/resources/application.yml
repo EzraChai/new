@@ -1,7 +1,13 @@
 twillo:
   account_sid: AC70b93fdd071461b8c64d63ebc62a35af
-  auth_token: ce621e1efbdb35f5afcbf081887cde1b
+  auth_token: 1600226a32c6803cb08d2abdecf2a044
   trial_number: +15183484288
 
 server:
   port: 8086
+
+spring:
+  redis:
+    port: 6379
+    host: localhost
+    timeout: 50000

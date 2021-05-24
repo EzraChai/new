@@ -16,6 +16,7 @@
         <module name="010-eureka-client-zuul-gateway" />
         <module name="stpd-page" />
         <module name="006-restTemplate-consumer" />
+        <module name="api" />
         <module name="009-eureka-server-feign" />
         <module name="002-eureka-client-provider" />
         <module name="011-springboot-mybatisplus" />
@@ -68,6 +69,7 @@
       <module name="010-eureka-server-zuul" target="1.8" />
       <module name="011-springboot-mybatisplus" target="1.8" />
       <module name="012-springboot-twillo" target="1.8" />
+      <module name="api" target="1.8" />
       <module name="heroku-springboot" target="1.8" />
       <module name="stpd-page" target="1.8" />
     </bytecodeTargetLevel>
@@ -103,6 +105,7 @@
       <module name="010-eureka-server-zuul" options="-parameters" />
       <module name="011-springboot-mybatisplus" options="-parameters" />
       <module name="012-springboot-twillo" options="-parameters" />
+      <module name="api" options="-parameters" />
       <module name="heroku-springboot" options="-parameters" />
       <module name="stpd-page" options="-parameters" />
     </option>

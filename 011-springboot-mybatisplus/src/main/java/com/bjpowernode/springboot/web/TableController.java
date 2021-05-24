@@ -7,7 +7,10 @@ import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import javax.annotation.Resource;
 import java.util.List;
@@ -31,5 +34,13 @@ public class TableController {
         model.addAttribute(userList);
         model.addAttribute(page);
         return "table";
+    }
+
+    @RequestMapping("/delete/{id}")
+    public String delete(@PathVariable("id")Integer id, @RequestParam(value = "pn",defaultValue = "1")Integer pn, RedirectAttributes ra){ //添加参数
+        userService.removeById(id);
+
+        ra.addAttribute("pn",pn);
+        return "redirect:/table";
     }
 }
