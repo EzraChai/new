@@ -3,6 +3,7 @@ package com.bjpowernode.springcloud.controller;
 import com.bjpowernode.springcloud.model.Student;
 import com.bjpowernode.springcloud.service.implement.StudentServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.web.bind.annotation.*;
@@ -10,6 +11,9 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("/student")
 public class StudentController {
+
+    @Value("${spring.datasource.password}")
+    private String password;
 
     private final StudentServiceImpl studentServiceImpl;
 
@@ -52,5 +56,10 @@ public class StudentController {
     public Page<Student> findStudentByGender(@PathVariable("gender") String gender,@RequestParam(value = "page", required = false, defaultValue = "0") int page, @RequestParam(value = "size", required = false, defaultValue = "36") int size) {
         PageRequest pageRequest = PageRequest.of(page, size);
         return studentServiceImpl.getStudentByGender(pageRequest,gender.trim().toLowerCase());
+    }
+
+    @GetMapping("/get/config")
+    public String getConfig(){
+        return password;
     }
 }

@@ -4,6 +4,8 @@ import com.bjpowernode.springcloud.model.Student;
 import com.bjpowernode.springcloud.service.StudentServiceRemoteClient;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
@@ -13,7 +15,7 @@ public class StudentController {
     private final StudentServiceRemoteClient remoteClient;
 
     @Autowired
-    public StudentController(StudentServiceRemoteClient remoteClient) {
+    public StudentController(@Qualifier("com.bjpowernode.springcloud.service.StudentServiceRemoteClient") StudentServiceRemoteClient remoteClient) {
         this.remoteClient = remoteClient;
     }
 
@@ -88,5 +90,14 @@ public class StudentController {
         } else {
             return remoteClient.findStudentByGender(gender, 0, 10);
         }
+    }
+
+    /**
+     * 读取配置文件里的配置
+     * @return password
+     */
+    @GetMapping("/feign/get/config")
+    public String getConfig(){
+        return remoteClient.getConfig();
     }
 }

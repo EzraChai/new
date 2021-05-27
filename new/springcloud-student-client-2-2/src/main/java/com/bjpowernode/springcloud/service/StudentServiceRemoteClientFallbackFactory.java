@@ -50,6 +50,11 @@ public class StudentServiceRemoteClientFallbackFactory implements FallbackFactor
                 System.out.println("message = " + message);
                 return new Student();
             }
+
+            @Override
+            public String getConfig() {
+                return null;
+            }
         };
     }
 }

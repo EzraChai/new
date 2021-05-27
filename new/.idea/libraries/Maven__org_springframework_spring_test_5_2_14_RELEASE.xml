@@ -1,13 +1,13 @@
 <component name="libraryTable">
-  <library name="Maven: org.springframework.cloud:spring-cloud-starter:2.2.8.RELEASE">
+  <library name="Maven: io.github.openfeign:feign-core:10.12">
     <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter/2.2.8.RELEASE/spring-cloud-starter-2.2.8.RELEASE.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/github/openfeign/feign-core/10.12/feign-core-10.12.jar!/" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter/2.2.8.RELEASE/spring-cloud-starter-2.2.8.RELEASE-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/github/openfeign/feign-core/10.12/feign-core-10.12-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter/2.2.8.RELEASE/spring-cloud-starter-2.2.8.RELEASE-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/github/openfeign/feign-core/10.12/feign-core-10.12-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

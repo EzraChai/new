@@ -1,0 +1,9 @@
+#Used to get all the properties
+spring:
+  application:
+    name: application
+  cloud:
+    config:
+      profile: consumer-dev
+      label: master
+      uri: http://localhost:8888/

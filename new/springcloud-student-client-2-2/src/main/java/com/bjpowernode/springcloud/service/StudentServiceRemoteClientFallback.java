@@ -34,4 +34,9 @@ public class StudentServiceRemoteClientFallback implements StudentServiceRemoteC
     public Object findStudentByGender(String gender, int page, int size) {
         return new Student();
     }
+
+    @Override
+    public String getConfig() {
+        return null;
+    }
 }

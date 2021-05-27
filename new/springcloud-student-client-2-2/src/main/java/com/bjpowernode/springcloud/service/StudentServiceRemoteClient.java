@@ -4,7 +4,7 @@ import com.bjpowernode.springcloud.model.Student;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.*;
 
-@FeignClient(value = "SERVICE-STUDENT-PROVIDER", /*fallback = StudentServiceRemoteClientFallback.class*/
+@FeignClient(value = "${service.id}", /*fallback = StudentServiceRemoteClientFallback.class*/
         fallbackFactory = StudentServiceRemoteClientFallbackFactory.class)
 public interface StudentServiceRemoteClient {
 
@@ -25,4 +25,7 @@ public interface StudentServiceRemoteClient {
 
     @GetMapping(value = "/student/find/gender/{gender}")
     public Object findStudentByGender(@PathVariable("gender") String gender, @RequestParam(value = "page", required = false, defaultValue = "0") int page, @RequestParam(value = "size", required = false, defaultValue = "36") int size);
+
+    @GetMapping("/student/get/config")
+    public String getConfig();
 }
