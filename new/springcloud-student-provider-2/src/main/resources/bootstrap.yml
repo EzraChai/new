@@ -3,7 +3,14 @@ spring:
   application:
     name: application
   cloud:
-      config:
-        profile: provider-dev
-        label: master
-        uri: http://localhost:8888/
+    config:
+      discovery:
+        enabled: true
+        service-id: SPRINGCLOUD-SERVICE-CONFIG
+      profile: provider-dev
+      label: master
+  eureka:
+    client:
+      service-url:
+        defaultZone: http://localhost:8761/eureka
+

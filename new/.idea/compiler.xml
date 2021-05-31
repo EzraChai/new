@@ -12,16 +12,20 @@
         <module name="springcloud-student-hystrix-dashboard" />
         <module name="springcloud-server" />
         <module name="springcloud-student-provider-2" />
+        <module name="springcloud-service-config-cluster" />
         <module name="springcloud-student-client-2-2" />
         <module name="springcloud-student-provider" />
         <module name="springcloud-student-client" />
+        <module name="demo" />
         <module name="springcloud-service-config" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="demo" target="11" />
       <module name="springcloud-hystrix-turbine" target="1.8" />
       <module name="springcloud-server" target="1.8" />
       <module name="springcloud-service-config" target="1.8" />
+      <module name="springcloud-service-config-cluster" target="1.8" />
       <module name="springcloud-student-client" target="1.8" />
       <module name="springcloud-student-client-2" target="1.8" />
       <module name="springcloud-student-client-2-2" target="1.8" />
@@ -35,9 +39,11 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="demo" options="-parameters" />
       <module name="springcloud-hystrix-turbine" options="-parameters" />
       <module name="springcloud-server" options="-parameters" />
       <module name="springcloud-service-config" options="-parameters" />
+      <module name="springcloud-service-config-cluster" options="-parameters" />
       <module name="springcloud-student-client" options="-parameters" />
       <module name="springcloud-student-client-2" options="-parameters" />
       <module name="springcloud-student-client-2-2" options="-parameters" />

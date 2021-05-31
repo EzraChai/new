@@ -12,9 +12,14 @@
         <option value="$PROJECT_DIR$/springcloud-hystrix-turbine/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud-student-client-2-2/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud-student-service-zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/../../RabbitMQ/demo/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud-service-config/pom.xml" />
+        <option value="$PROJECT_DIR$/../../RabbitMQ/springcloud-service-config-cluster/pom.xml" />
       </list>
     </option>
+  </component>
+  <component name="ProjectPlainTextFileTypeManager">
+    <file url="file://$PROJECT_DIR$/springcloud-service-config-cluster/src/main/resources/application.properties" />
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_15" default="true" project-jdk-name="openjdk-15" project-jdk-type="JavaSDK" />
 </project>

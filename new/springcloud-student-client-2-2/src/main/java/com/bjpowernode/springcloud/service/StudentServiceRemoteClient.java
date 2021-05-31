@@ -4,7 +4,7 @@ import com.bjpowernode.springcloud.model.Student;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.*;
 
-@FeignClient(value = "${service.id}", /*fallback = StudentServiceRemoteClientFallback.class*/
+@FeignClient(value = "SERVICE-STUDENT-PROVIDER", /*fallback = StudentServiceRemoteClientFallback.class*/
         fallbackFactory = StudentServiceRemoteClientFallbackFactory.class)
 public interface StudentServiceRemoteClient {
 

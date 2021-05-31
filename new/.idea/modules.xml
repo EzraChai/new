@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../RabbitMQ/demo/demo.iml" filepath="$PROJECT_DIR$/../../RabbitMQ/demo/demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/new.iml" filepath="$PROJECT_DIR$/.idea/new.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-hystrix-turbine/springcloud-hystrix-turbine.iml" filepath="$PROJECT_DIR$/springcloud-hystrix-turbine/springcloud-hystrix-turbine.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-server/springcloud-server.iml" filepath="$PROJECT_DIR$/springcloud-server/springcloud-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-service-config/springcloud-service-config.iml" filepath="$PROJECT_DIR$/springcloud-service-config/springcloud-service-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../RabbitMQ/springcloud-service-config-cluster/springcloud-service-config-cluster.iml" filepath="$PROJECT_DIR$/../../RabbitMQ/springcloud-service-config-cluster/springcloud-service-config-cluster.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-student-client/springcloud-student-client.iml" filepath="$PROJECT_DIR$/springcloud-student-client/springcloud-student-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-student-client-2/springcloud-student-client-2.iml" filepath="$PROJECT_DIR$/springcloud-student-client-2/springcloud-student-client-2.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-student-client-2-2/springcloud-student-client-2-2.iml" filepath="$PROJECT_DIR$/springcloud-student-client-2-2/springcloud-student-client-2-2.iml" />

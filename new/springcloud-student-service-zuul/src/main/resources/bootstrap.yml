@@ -1,0 +1,9 @@
+#Used to get all the properties
+spring:
+  application:
+    name: application
+  cloud:
+    config:
+      profile: zuul-server
+      label: master
+      uri: http://localhost:8888/

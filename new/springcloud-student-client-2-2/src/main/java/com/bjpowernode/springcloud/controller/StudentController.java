@@ -6,11 +6,14 @@ import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.web.bind.annotation.*;
 
+@RefreshScope
 @RestController
 @RequestMapping("/api/v1/student")
 public class StudentController {
+
 
     private final StudentServiceRemoteClient remoteClient;
 
@@ -38,7 +41,7 @@ public class StudentController {
     )*/
     @HystrixCommand
     @GetMapping("/feign/find/id/{id}")
-    public Student getStudent(@PathVariable("id") int id){
+    public Student getStudent(@PathVariable("id") int id) {
         System.out.println("Running");
         return remoteClient.findStudentById(id);
     }
@@ -46,13 +49,13 @@ public class StudentController {
     /**
      * 降级方法
      * 备用方法
+     *
      * @return 默认结果
      */
 //    public Student fallback(@PathVariable("id") int id, Throwable throwable){
 //        System.out.println(throwable.getMessage());
 //        return new Student((long) id,"Not Found",404,"Not Found","Not Found");
 //    }
-
     @HystrixCommand
     @GetMapping("/feign/find/name/{name}")
     public Object getStudentNames(@PathVariable("name") String name, @RequestParam(value = "page", required = false) Integer page, @RequestParam(value = "size", required = false) Integer size) {
@@ -94,10 +97,12 @@ public class StudentController {
 
     /**
      * 读取配置文件里的配置
+     *
      * @return password
      */
     @GetMapping("/feign/get/config")
-    public String getConfig(){
-        return remoteClient.getConfig();
+    public String getConfig() {
+        String config = remoteClient.getConfig();
+        return config;
     }
 }
