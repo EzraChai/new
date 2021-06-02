@@ -4,6 +4,8 @@ spring:
     name: application
   cloud:
     config:
+      username: chloegan
+      password: chloegan
       discovery:
         enabled: true
         service-id: SPRINGCLOUD-SERVICE-CONFIG

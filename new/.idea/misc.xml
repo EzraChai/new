@@ -15,6 +15,7 @@
         <option value="$PROJECT_DIR$/../../RabbitMQ/demo/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud-service-config/pom.xml" />
         <option value="$PROJECT_DIR$/../../RabbitMQ/springcloud-service-config-cluster/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-service-config-cluster/pom.xml" />
       </list>
     </option>
   </component>
