@@ -16,7 +16,21 @@
         <option value="$PROJECT_DIR$/springcloud-service-config/pom.xml" />
         <option value="$PROJECT_DIR$/../../RabbitMQ/springcloud-service-config-cluster/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud-service-config-cluster/pom.xml" />
+        <option value="$PROJECT_DIR$/../../RabbitMQ/new/springcloud-zipkin/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-zipkin/pom.xml" />
+        <option value="$PROJECT_DIR$/../../RabbitMQ/new/springcloud-student-provider-2-2/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-student-provider-2-2/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-student-client-2-2-2/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-service-stream/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-service-stream-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-service-stream-producer/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-service-stream-consumer-2/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/springcloud-student-provider-2/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectPlainTextFileTypeManager">

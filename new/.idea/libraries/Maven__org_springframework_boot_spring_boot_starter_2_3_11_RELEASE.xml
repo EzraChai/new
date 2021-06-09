@@ -1,13 +1,13 @@
 <component name="libraryTable">
-  <library name="Maven: org.springframework.boot:spring-boot-starter:2.3.11.RELEASE">
+  <library name="Maven: io.zipkin.reporter2:zipkin-sender-activemq-client:2.16.1">
     <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter/2.3.11.RELEASE/spring-boot-starter-2.3.11.RELEASE.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/zipkin/reporter2/zipkin-sender-activemq-client/2.16.1/zipkin-sender-activemq-client-2.16.1.jar!/" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter/2.3.11.RELEASE/spring-boot-starter-2.3.11.RELEASE-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/zipkin/reporter2/zipkin-sender-activemq-client/2.16.1/zipkin-sender-activemq-client-2.16.1-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter/2.3.11.RELEASE/spring-boot-starter-2.3.11.RELEASE-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/io/zipkin/reporter2/zipkin-sender-activemq-client/2.16.1/zipkin-sender-activemq-client-2.16.1-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

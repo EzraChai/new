@@ -1,0 +1,18 @@
+#Used to get all the properties
+spring:
+  application:
+    name: application
+  cloud:
+    config:
+      username: chloegan
+      password: chloegan
+      discovery:
+        enabled: true
+        service-id: SPRINGCLOUD-SERVICE-CONFIG
+      profile: provider-dev
+      label: master
+  eureka:
+    client:
+      service-url:
+        defaultZone: https://chloegan:chloegan@thawing-dusk-29815.herokuapp.com/eureka
+

@@ -8,13 +8,18 @@
       <module fileurl="file://$PROJECT_DIR$/springcloud-server/springcloud-server.iml" filepath="$PROJECT_DIR$/springcloud-server/springcloud-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-service-config/springcloud-service-config.iml" filepath="$PROJECT_DIR$/springcloud-service-config/springcloud-service-config.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-service-config-cluster/springcloud-service-config-cluster.iml" filepath="$PROJECT_DIR$/springcloud-service-config-cluster/springcloud-service-config-cluster.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-service-stream-consumer/springcloud-service-stream-consumer.iml" filepath="$PROJECT_DIR$/springcloud-service-stream-consumer/springcloud-service-stream-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-service-stream-consumer-2/springcloud-service-stream-consumer-2.iml" filepath="$PROJECT_DIR$/springcloud-service-stream-consumer-2/springcloud-service-stream-consumer-2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-service-stream-producer/springcloud-service-stream-producer.iml" filepath="$PROJECT_DIR$/springcloud-service-stream-producer/springcloud-service-stream-producer.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-student-client/springcloud-student-client.iml" filepath="$PROJECT_DIR$/springcloud-student-client/springcloud-student-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-student-client-2/springcloud-student-client-2.iml" filepath="$PROJECT_DIR$/springcloud-student-client-2/springcloud-student-client-2.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-student-client-2-2/springcloud-student-client-2-2.iml" filepath="$PROJECT_DIR$/springcloud-student-client-2-2/springcloud-student-client-2-2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-student-client-2-2-2/springcloud-student-client-2-2-2.iml" filepath="$PROJECT_DIR$/springcloud-student-client-2-2-2/springcloud-student-client-2-2-2.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-student-hystrix-dashboard/springcloud-student-hystrix-dashboard.iml" filepath="$PROJECT_DIR$/springcloud-student-hystrix-dashboard/springcloud-student-hystrix-dashboard.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-student-provider/springcloud-student-provider.iml" filepath="$PROJECT_DIR$/springcloud-student-provider/springcloud-student-provider.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springcloud-student-provider-2/springcloud-student-provider-2.iml" filepath="$PROJECT_DIR$/springcloud-student-provider-2/springcloud-student-provider-2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-student-provider-2-2/springcloud-student-provider-2-2.iml" filepath="$PROJECT_DIR$/springcloud-student-provider-2-2/springcloud-student-provider-2-2.iml" />
       <module fileurl="file://$PROJECT_DIR$/springcloud-student-service-zuul/springcloud-student-service-zuul.iml" filepath="$PROJECT_DIR$/springcloud-student-service-zuul/springcloud-student-service-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springcloud-zipkin/springcloud-zipkin.iml" filepath="$PROJECT_DIR$/springcloud-zipkin/springcloud-zipkin.iml" />
     </modules>
   </component>
 </project>
